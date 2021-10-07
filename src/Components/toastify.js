@@ -3,9 +3,9 @@ import { toast} from 'react-toastify';
 
 
 export const notify = (text,type) => {
-    if(type=== "success"){
+    if(type === "success"){
         toast.success(text, {
-            position: "top-center",
+            position: "top-right",
             autoClose: 5000,
             hideProgressBar: false,
             closeOnClick: true,
